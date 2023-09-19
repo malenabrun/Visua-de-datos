@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="view-transition" content="same-origin" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VD | Slider</title>
+
+    <!-- Reinicio de estilos -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <!-- Estilos para editar -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Scripts transiciones páginas -->
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://unpkg.com/gsap@latest/dist/gsap.min.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+
+  <body data-barba="wrapper">
+    <div class="container" data-barba="container" data-barba-namespace="home">
+      <div id="slide6">
+
+        <!-- CAMBIAR el video-->
+        <video
+        id="videoConc"
+        src="media/videoConclu.mp4"
+        autoplay
+        muted
+        loop
+        preload="auto"
+      ></video>
+
+        <!-- Titulo y bajada -->
+        <div class="header">
+          <h1><b>¿PODRÁ GANAR EL VOTO DE CABA?</b></h1>
+          <p class="bajada">
+            Poca participación de parte de zona norte </p>
+
+          <p class="explica">Las elecciones presidenciales 2023 serán llevadas a cabo el 22 de Octubre. ¿Será que para entonces también ganará Mieli? Aunque haya ganado sido el candidato individual mas votado, no se puede asegurar que suceda lo mismo en las elecciones. Esto se debe a que en el resto de los partidos los votos se dividían, principalamente, en dos candidatos pricncipales y en el caso que esos votos se queden en el partido respectivo, no se puede asegurar que ganará Milei.</p>
+          
+        </div>
+      </div>
+
+      <!-- Botones -->
+      <a id="prev_btn" class="prevBtn" href="page_5.html">
+        <div class="flecha izq"></div>
+      </a>
+      
+      <!-- Botón para ir a page_5.html -->
+      <a id="next_btn" class="nextBtn" href="#">
+        <div class="flecha der"></div>
+      </a>
+
+    </div>
+  </body>
+</html>

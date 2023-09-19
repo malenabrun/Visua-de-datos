@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="view-transition" content="same-origin" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VD | Slider</title>
+
+    <!-- Reinicio de estilos -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <!-- Estilos para editar -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Scripts transiciones páginas -->
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://unpkg.com/gsap@latest/dist/gsap.min.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+
+  <body data-barba="wrapper">
+    <div class="container" data-barba="container" data-barba-namespace="home">
+      <div id="slide3">
+        
+        <!-- Titulo y bajada -->
+        <div class="header">
+          <h1>El voto en caba <b>¿es representativo?</b></h1>
+          <p class="bajada">
+            Poca participación de parte de zona norte </p>
+
+            <p class="explica">Si bien estas elecciones no son las definitivas, es importante que los ciudadanos voten para ver que partidos pueden presentarse en las elecciones asi también como definir los candidatos dentro de cada partido político. En comunas como en la 11 o 12, un 73% de la población votó. Por otro lardo en la 1, la zona de retiro y puerto madero, solo votó el 63% lo cual no parece ser un voto muy representativo del que se pueda segurar ningún resultado. Igualmente, las comunas 8 y 2 tienen al rededor de un 68% de participación lo que permite comprar los resultados de ambas.</p>
+
+        </div>
+      </div>
+
+      <!-- Visualizacion DW -->
+        
+      <div id="mapaParticp">
+        <p>Una comparación viable entre comunas</p>
+        <iframe title="" aria-label="Map" id="datawrapper-chart-SP3Eu" src="https://datawrapper.dwcdn.net/SP3Eu/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="721" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+        </script>
+      </div>
+
+      <!-- Botones -->
+      <a id="prev_btn" class="prevBtn" href="page_2.html">
+        <div class="flecha izq"></div>
+      </a>
+      
+      <!-- Enlace al botón "Siguiente" para ir a page_3.html -->
+      <a id="next_btn" class="nextBtn" href="page_4.html">
+        <div class="flecha der"></div>
+      </a>
+      </a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="view-transition" content="same-origin" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VD | Slider</title>
+
+    <!-- Reinicio de estilos -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <!-- Estilos para editar -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Scripts transiciones páginas -->
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://unpkg.com/gsap@latest/dist/gsap.min.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+
+  <body data-barba="wrapper">
+    <div class="container" data-barba="container" data-barba-namespace="home">
+      <video
+        id="videoApertura"
+        src="media/videoPortada.mp4"
+        autoplay
+        muted
+        loop
+        preload="auto"
+      ></video>
+
+    <a id="tags">
+      <h4>Malena Brun</h4>
+      <h5>Vis. de Datos</h5>
+      <h6>S2</h6>
+    </a>
+      
+      <div id="headerApertura">
+        <h1>Gran derrota en caba: Milei</h1>
+        <p>
+          ¿Como se explica el triunfo de Milei en casi todas las provincias del país, pero con la capital en contra?
+        </p>
+      </div>
+
+      <!-- Botones -->
+      <a id="prev_btn" class="prevBtn block" href="#">
+        <div class="flecha izq"></div>
+      </a>
+      <a id="next_btn" class="nextBtn" href="page_1.html">
+        <div class="flecha der"></div>
+      </a>
+    </div>
+  </body>
+</html>
